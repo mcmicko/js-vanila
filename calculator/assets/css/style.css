@@ -47,6 +47,7 @@ body {
   border: 2px solid black;
   padding: 20px;
   font-weight: bolder;
+  transition: background ease-in 200ms;
 }
 
 #calculator button:hover {
