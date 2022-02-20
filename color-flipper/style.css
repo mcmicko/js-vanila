@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+nav {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+}
+.nav-center > h1 {
+  font-size: 48px;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-links > li > a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -125px;
+  margin-left: -300px;
+  width: 600px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+}
+
+.container > h2 {
+  position: absolute;
+  top: 5%;
+}
+
+.container > button {
+  padding: 20px 50px;
+  background: none;
+  border: 3px solid rgba(255, 255, 255, 0.329);
+  border-radius: 8px;
+  font-size: 20px;
+  transition: all 0.5s ease-out;
+}
+
+.container > button:hover {
+  background: white;
+}
