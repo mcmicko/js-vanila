@@ -11,11 +11,61 @@
   <body>
     <button id="modalBtn" class="button">click</button>
 
+    <div class="search-book-wrapper">
+      <h3 class="wrapper-subtitle">Search for book:</h3>
+      <input type="text" id="filter" placeholder="search" />
+    </div>
+
+    <div class="delete-book-wrapper">
+      <h3 class="wrapper-subtitle">Delete book:</h3>
+      <input
+        id="book-delete-input"
+        type="text"
+        placeholder="Enter book's name in order to delete it"
+      />
+      <button id="delete-book-btn">Delete</button>
+    </div>
+
     <div id="simpleModal" class="modal">
       <div class="modal-content">
         <span class="closeBtn">&times;</span>
-        <p>Hello...I am a model</p>
+        <div class="add-book-wrapper">
+          <h2 class="add-book-title">Add new book:</h2>
+          <h3 class="book-info-title">Book's name:</h3>
+          <input
+            id="book-name-input"
+            type="text"
+            placeholder="Enter book's name"
+          />
+          <h3 class="book-info-title">Book's writter:</h3>
+          <input
+            id="book-writter-input"
+            type="text"
+            placeholder="Enter book's writter"
+          />
+          <h3 class="book-info-title">Additional Attribute Name:</h3>
+          <input
+            id="additional-attribute-name-input"
+            type="text"
+            placeholder="Enter additional attribute name:"
+          />
+          <h3 class="book-info-title">Additional Attribute Value:</h3>
+          <input
+            id="additional-attribute-value-input"
+            type="text"
+            placeholder="Enter additional attribute value:"
+          />
+          <button id="add-book-btn">Add</button>
+        </div>
       </div>
     </div>
+
+    <ul id="items">
+      <li>item 1 <button class="del">del</button></li>
+      <li>item 2 <button class="del">del</button></li>
+      <li>item 3 <button class="del">del</button></li>
+      <li>item 4 <button class="del">del</button></li>
+      <li>item 5 <button class="del">del</button></li>
+    </ul>
   </body>
 </html>
