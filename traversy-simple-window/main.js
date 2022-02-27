@@ -89,7 +89,7 @@ const addBook = (name, writter, attributeName = "", attributeValue = "") => {
   delbtn.className = "del";
   delbtn.appendChild(document.createTextNode("del"));
 
-  li.className = "list-group-item";
+  li.className = "list-item";
 
   books.push(addedBook);
   li.innerHTML = `${addedBook.name}`;

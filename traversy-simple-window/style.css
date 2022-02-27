@@ -58,3 +58,25 @@ body {
     opacity: 1;
   }
 }
+
+#items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-item {
+  position: relative;
+  list-style: none;
+  width: 30%;
+  margin: 2px;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.del {
+  position: absolute;
+  right: 0;
+}
